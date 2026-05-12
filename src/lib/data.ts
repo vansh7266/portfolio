@@ -123,8 +123,7 @@ export const skillCategories: SkillCategory[] = [
       { name: "FastAPI", level: 88 },
       { name: "Pydantic", level: 82 },
       { name: "Firebase", level: 76 },
-      { name: "REST APIs", level: 86 },
-      { name: "Chart.js", level: 74 }
+      { name: "REST APIs", level: 86 }
     ]
   },
   {
@@ -266,6 +265,7 @@ export const projects: Project[] = [
       "Molecular feature attribution"
     ],
     githubUrl: "https://github.com/vansh7266/toxpredict",
+    liveUrl: "https://toxpredict-vzep.onrender.com",
     image: getProjectImage("toxpredict", "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&q=80&w=1200")
   },
   {
