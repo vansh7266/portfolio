@@ -1,4 +1,8 @@
 import type { LucideIcon } from "lucide-react";
+import type { ComponentType } from "react";
+
+/** Lucide icons or small SVG marks (e.g. brand logos) with matching className API. */
+export type SocialIcon = LucideIcon | ComponentType<{ className?: string }>;
 
 export type ProjectCategory =
   | "All"
@@ -13,7 +17,7 @@ export type ProjectStatus = "Live" | "Case Study" | "Prototype" | "Repository" |
 export type SocialLink = {
   label: string;
   href: string;
-  icon: LucideIcon;
+  icon: SocialIcon;
 };
 
 export type Profile = {

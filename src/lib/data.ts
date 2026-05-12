@@ -15,11 +15,11 @@ import {
   Mail,
   Network,
   Rocket,
-  Sparkles,
   Terminal,
   Trophy,
   Wrench
 } from "lucide-react";
+import { HuggingFaceIcon } from "./icons/HuggingFaceIcon";
 import type {
   Achievement,
   Profile,
@@ -63,7 +63,7 @@ export const socialLinks: SocialLink[] = [
   { label: "GitHub", href: profile.github, icon: Github },
   { label: "LinkedIn", href: profile.linkedin, icon: Linkedin },
   { label: "Email", href: `mailto:${profile.email}`, icon: Mail },
-  { label: "Hugging Face", href: profile.huggingFace, icon: Sparkles }
+  { label: "Hugging Face", href: profile.huggingFace, icon: HuggingFaceIcon }
 ];
 
 export const rolePhrases = [
